@@ -1,4 +1,4 @@
-from intro import *            
+from intro import *
 from filedata import *
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ def final():
         #exp=int(input("3.Market capExport"))
         #govt=int(input("4.Import"))
         #cap= int(input("5.Export"))
-        acc=regressor.score(X,Y)*95
+        acc=regressor.score(X,Y)*100
         print(acc)
         cons=int(con.get())
         govtb=int(govt.get())
